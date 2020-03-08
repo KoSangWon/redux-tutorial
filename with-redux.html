@@ -25,6 +25,7 @@
                 if(action.type === 'CHANGE_COLOR'){
                     newState = Object.assign({}, state, {color:action.color});
                 }
+                console.log(action.type, action, state, newState);
                 return newState;
             }
 
